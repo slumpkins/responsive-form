@@ -1,0 +1,80 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.wrapper_contact_form {
+    margin: 47px auto;
+}
+
+#contact_form { background:#F9F9F9;
+    padding:25px;
+	max-width:640px;
+	min-width
+	margin: 0 auto;
+
+}
+
+.akform{
+    font: normal 12px arial,helvetica,sans-serif;
+    color: #333;
+    text-align: left;
+    margin: 0;
+}
+
+.akform textarea {
+	max-width: 477px!important;
+ 	height: 150px;
+   padding: 10px;
+	width: 75%;
+}
+
+.akform h3{
+    margin: 0 0 10px;
+    color: #a00;
+}
+
+.akform .fields{
+    padding: 10px 0;
+    background: #ddd;
+}
+
+.akform input {
+    display:block;
+    width:90%;
+    border:1px solid #5f5f5f;
+    padding:10px;
+    margin-bottom:25px;
+}
+
+.akform .field .fieldTick{
+    background: url('images/tick.png') no-repeat right center;
+}
+
+.akform .field .fieldCross{
+    background: url('images/cross.png') no-repeat right center;
+}
+
+.akform .field label{
+    display: block;
+    font-weight: bold;
+	cursor:pointer;
+    margin:4px 0;
+	width: 90%;
+}
+
+.akform span.mandatory{
+    color: #a00;
+}
+
+.akform input.button{
+    margin-top: 20px;
+	width: 25%;
+}
+
+.akform #confirm, #confirmMessage{
+    background: #efe;
+    padding: 5px;
+    border: 1px solid #060;
+    color: #060;
+    font-weight: bold;
+    text-align: center;
+}
