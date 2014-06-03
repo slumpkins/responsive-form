@@ -1,14 +1,9 @@
 @charset "UTF-8";
 /* CSS Document */
 
-.wrapper_contact_form {
-    margin: 47px auto;
-}
-
 #contact_form { background:#F9F9F9;
     padding:25px;
 	max-width:640px;
-	min-width
 	margin: 0 auto;
 
 }
