@@ -16,7 +16,7 @@ Replaced existing jquery with latest min script <br>
 Submit button disabled unless form filled properly <br>
 removed comments<br>
 hid scripts in hidden div to please WP<br>
-compressed html for WP<br><br>
+compressed html for WP<br>
 added a "no-conflict" version of emforms.js to server to accomodate sites w/ jquery function conflicts<br><br>
 CSS:<br>
 line height 100%<br>
