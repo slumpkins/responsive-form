@@ -12,15 +12,16 @@ Should test.
 
 ======6/19/14
 ==============================
-Added jquery latest min script <br>
+Replaced existing jquery with latest min script <br>
 Submit button disabled unless form filled properly <br>
 removed comments<br>
-hid scripts in hidden div<br>
-compressed html for WP<br>
+hid scripts in hidden div to please WP<br>
+compressed html for WP<br><br>
+CSS:<br>
 line height 100%<br>
-default cursor on disable<br>
+default cursor on disabled button<br>
 more adaptive css<br>
 tried to prevent parent from collapse w/ overflow: auto<br>
-dependent files uploaded to global server<br>
+dependent files uploaded to global server @ slms1.com/assets/<br>
 
 
