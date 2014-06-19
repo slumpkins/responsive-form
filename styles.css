@@ -1,11 +1,16 @@
-@charset "UTF-8";
-/* CSS Document */
+/* .akform Form CSS */
 
-#contact_form { background:#F9F9F9;
-    padding:25px;
-	max-width:640px;
-	margin: 0 auto;
+/* Prevent Parent Div from Collapse */
+#content-wrapper {
+    overflow: auto;
+}
 
+#contact_form{ 
+background: transparent;
+padding: 0px 10px 10px 0px;
+max-width:640px;
+min-width: 256px;
+margin: 0;
 }
 
 .akform{
@@ -15,16 +20,19 @@
     margin: 0;
 }
 
-.akform textarea {
-	max-width: 477px!important;
- 	height: 150px;
-   padding: 10px;
-	width: 75%;
+.akform .fieldInput {
+	width: 100%;
 }
 
-.akform h3{
-    margin: 0 0 10px;
-    color: #a00;
+.akform textarea {
+max-width: 477px!important;
+  height: 150px;
+   padding: 10px;
+width: 75%;
+}
+
+#contact_form h3{
+    margin: 0px 0px 10px 0px!important;
 }
 
 .akform .fields{
@@ -34,26 +42,28 @@
 
 .akform input {
     display:block;
-    width:90%;
-    border:1px solid #5f5f5f;
+    width:80%;
+    border: 1px solid #E8E8E8;
     padding:10px;
     margin-bottom:25px;
 }
 
 .akform .field .fieldTick{
-    background: url('images/tick.png') no-repeat right center;
+    background: url('http://slms1.com/assets/stylesheets/images/tick.png') no-repeat  ;
+	background-position:100% 50%;
 }
 
 .akform .field .fieldCross{
-    background: url('images/cross.png') no-repeat right center;
+    background: url('http://slms1.com/assets/stylesheets/images/cross.png') no-repeat ;
+	background-position:100% 50%;
 }
 
 .akform .field label{
     display: block;
     font-weight: bold;
-	cursor:pointer;
+cursor:pointer;
     margin:4px 0;
-	width: 90%;
+width: 90%;
 }
 
 .akform span.mandatory{
@@ -61,8 +71,15 @@
 }
 
 .akform input.button{
-    margin-top: 20px;
-	width: 25%;
+margin-top: 20px;
+line-height: 100%;
+width: 25%;
+cursor: pointer;
+}
+
+.akform input.button:disabled {
+background-color: #BCBCBC;
+cursor: default;
 }
 
 .akform #confirm, #confirmMessage{
@@ -73,3 +90,4 @@
     font-weight: bold;
     text-align: center;
 }
+/* End Form CSS */
