@@ -75,6 +75,7 @@ margin-top: 20px;
 line-height: 100%;
 width: 25%;
 cursor: pointer;
+color: #000000!important;
 }
 
 .akform input.button:disabled {
