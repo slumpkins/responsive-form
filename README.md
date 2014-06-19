@@ -17,11 +17,13 @@ Submit button disabled unless form filled properly <br>
 removed comments<br>
 hid scripts in hidden div to please WP<br>
 compressed html for WP<br><br>
+added a "no-conflict" version of emforms.js to server to accomodate sites w/ jquery function conflicts<br><br>
 CSS:<br>
 line height 100%<br>
 default cursor on disabled button<br>
 more adaptive css<br>
 tried to prevent parent from collapse w/ overflow: auto<br>
 dependent files uploaded to global server @ slms1.com/assets/<br>
+min-width decreased to accomodate site w/ lesser widths on mobile
 
 
