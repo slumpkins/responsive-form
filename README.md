@@ -12,15 +12,15 @@ Should test.
 
 ======6/19/14
 ==============================
-Added jquery latest min script
-Submit button disabled unless form filled properly
-removed comments
-hid scripts in hidden div
-compressed html for WP
-line height 100%
-default cursor on disable
-more adaptive css
-tried to prevent parent from collapse w/ overflow: auto
-dependent files uploaded to global server
+Added jquery latest min script <br>
+Submit button disabled unless form filled properly <br>
+removed comments<br>
+hid scripts in hidden div<br>
+compressed html for WP<br>
+line height 100%<br>
+default cursor on disable<br>
+more adaptive css<br>
+tried to prevent parent from collapse w/ overflow: auto<br>
+dependent files uploaded to global server<br>
 
 
